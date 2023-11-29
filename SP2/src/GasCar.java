@@ -31,6 +31,6 @@ public class GasCar extends AFuelCar {
 
         }
 
-        return Integer.parseInt(registrationFee + " kr.");
+        return registrationFee;
     }
 }

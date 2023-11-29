@@ -17,22 +17,22 @@ public abstract class ACar implements Car {
 
     @Override
     public String getRegistrationNumber() {
-        return null;
+        return registrationNumber;
     }
 
     @Override
     public String getCarBrand() {
-        return null;
+        return carBrand;
     }
 
     @Override
     public String getModel() {
-        return null;
+        return model;
     }
 
     @Override
     public int getNumberOfDoors() {
-        return 0;
+        return numberOfDoors;
     }
 
     @Override

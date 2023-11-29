@@ -43,6 +43,6 @@ public class ElectricCar extends ACar {
 
         }
 
-        return Integer.parseInt(registrationFee + " kr.");
+        return registrationFee;
     }
 }

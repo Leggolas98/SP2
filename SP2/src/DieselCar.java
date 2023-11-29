@@ -50,7 +50,7 @@ public class DieselCar extends AFuelCar {
             registrationFee = registrationFee + 1000;
         }
 
-        return Integer.parseInt(registrationFee + " kr.");
+        return registrationFee;
 
     }
 }
